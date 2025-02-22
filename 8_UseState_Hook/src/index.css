@@ -1,0 +1,25 @@
+.count-container {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.count-display {
+    font-size: 10em;
+}
+
+.counter-button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: hsl(180, 92%, 15%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter-button:hover {
+    background-color: hsl(180, 85%, 21%);
+
+}
