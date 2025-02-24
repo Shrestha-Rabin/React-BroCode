@@ -7,12 +7,12 @@ body {
     margin-top: 100px;
 }
 h1 {
-    font-size: 4rem;
+    font-size: 2.6rem;
     color: white;
 }
 
 button {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: bold;
     padding: 10px 20px;
     color: white;
@@ -44,7 +44,7 @@ button {
 }
 
 input[type="text"] {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 10px;
     border: 2px solid hsla(0, 0%, 80%, 0.5);
     border-radius: 5px;
@@ -56,9 +56,9 @@ ol {
 }
 
 li {
-    font: 2rem;
+    font-size: 2rem;
     font-weight: bold;
-    padding: 15px;
+    padding: 8px;
     background-color: hsl(0, 0%, 97%);
     margin-bottom: 10px;
     border: 3px solid hsla(0, 0%, 85%, 0.5);
@@ -73,6 +73,6 @@ li {
 
 .delete-btn, .move-btn {
     padding: 8px 12px;
-    font: 1.4rem;
+    font-size: 1rem;
     margin-left: 10px;
 }

@@ -3,7 +3,7 @@ import React, {useState} from "react";
 function ToDoList () {
 
 
-    const [tasks, setTasks] = useState([]);
+    const [tasks, setTasks] = useState(["a"]);
     const [newTask, setNewTask] = useState("");
 
     const [todosDate, setTodosDate] = useState(()=> {
