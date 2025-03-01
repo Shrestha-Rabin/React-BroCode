@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 
 function DigitalClock () {
 
-    const [TimeRanges, setTime] = useState(new Date());
+    const [time, setTime] = useState(new Date());
 
     useEffect(() => {
         // set date to new date in every 1000ms ie, 1 sec
@@ -22,9 +22,9 @@ function DigitalClock () {
 
 
     function formatTime() {
-        let hours = TimeRanges.getHours();
-        const minutes = TimeRanges.getMinutes();
-        const seconds = TimeRanges.getSeconds();
+        let hours = time.getHours();
+        const minutes = time.getMinutes();
+        const seconds = time.getSeconds();
 
         const meridiem = hours >= 12 ? "PM" : "AM"
 
